@@ -1,0 +1,477 @@
+ .nav-bar-items, .user,.icons,.logo{
+    display: flex;
+   
+}
+.ratings{
+   
+    text-align: center;
+    font-family: "ubuntu-regular", sans-serif;
+    font-size: .870rem;  
+    font-weight:400;
+margin-bottom: 10px;
+    margin-left: 15px;
+}
+.lnr-menu{
+float: right;
+margin-left: 50px;
+margin-top: 15px;
+cursor: pointer;
+}
+.baredit{
+   margin: auto;
+  
+}
+.opne-toggle{
+    display:none;
+  
+}
+.icons{
+    align-items: center;
+}
+.navbaritems-opensidebar{
+    
+    font-size: 20px;
+}
+.navbaritems{
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.right1{
+margin-left: auto;
+margin-top: 10px;
+list-style: none;
+display: flex;
+justify-content: center;
+align-items:center ;
+}
+.lnr-chevron-down,.lnr-chevron-right{
+    font-weight: 900;
+    font-size:8px;
+  
+}
+#notificationdot{
+    background-color: #EC7063;
+}
+.dot{
+    height:6px;
+    width: 6px;
+   background-color: #F4D03F ;
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 15px;
+}
+.purple{
+
+    margin-top: 10px;
+  
+    font-size:20px;
+    font-weight: 900;
+    color: #79747a;
+    margin-left: 10px;
+}
+#userpic{
+    height: 35px;
+   margin-right: 10px;
+    border-radius: 50%;
+   
+ 
+}
+
+   
+  .full-screenable-node {
+    background: #f5f5f5;
+  }
+.iconsclass{
+    color: gray;
+}
+.dropdown2{
+    cursor: pointer;
+}
+
+.dropdowndetails{
+    font-family: "ubuntu-regular", sans-serif;
+    font-size: .830rem;  
+    font-weight:400;
+    float: left;
+    margin-left:6px;
+margin-top: 4px;
+   
+}
+
+.inout{
+    justify-content: center;
+}
+.dropdown-item{
+    padding: 5px;
+   justify-content: center;
+   
+
+}
+.userrating{
+    font-size: 0.889rem;
+    font-family: "ubuntu-regular", sans-serif;
+    
+}
+.dropdown-item img{
+    height: 35px;
+    width: 45px;
+    padding: 0 5px;
+}
+.dropdownmsg{
+    margin-top: 16px;
+    font-size: 0.889rem;
+    font-family: "ubuntu-regular", sans-serif;
+    height:auto;
+}
+.dropdownnoti{
+    margin-top: 16px;
+    font-size: 0.889rem;
+    font-family: "ubuntu-regular", sans-serif;
+    width: 200px !important;
+}
+.newmsgs{
+   margin: auto;
+    font-size: 0.689rem;
+    margin-left: 30%;
+}
+.hellouser{
+    font-size: 0.989rem; 
+}
+.dropdown-item:hover{
+  background-color: transparent;
+}
+.lnricon{
+   color: gray;
+    float: left;
+    margin-left:7px;
+    font-size: 17px;
+justify-content: center;
+    
+}
+.lnr-exit{
+    color: red;
+}
+.right1 .li{
+    padding: 0 90px;
+}
+.logo img{
+    height:40px;
+    margin-left: 10px;
+
+}
+.main-body-content{
+    padding:20px 20px;
+}
+.nav-bar{
+    background-color: white;
+    width: 100%;
+   height:60px;
+   display:flex;
+   position: fixed;
+   z-index: 1;
+   box-shadow: 0 0 1px ;
+    
+}
+.dropdowntitle{
+    font-size:900px;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+body{
+    background-color:#EAEDED;   
+}
+.decrease1{
+    float:right;
+    cursor: pointer;
+    font-size: 25px;
+    transition: all 1s ease;
+    transform: scaleX(-1);
+}
+
+.decrease2{
+    margin-left:30px;
+    cursor: pointer;
+    font-size: 25px;
+    color: gray;   
+}
+.nav-bar-items{
+    padding:10px 20px;
+}
+.form-control{
+    border: none; 
+    background: transparent;    
+}
+.input{
+    font-size: .872rem;
+}
+#icons1{
+    padding:0px 20px 0px;
+}
+.mdi-subdirectory-arrow-right{
+    color: gray;
+}
+
+
+#icons5{
+    margin-left: 27px;
+}
+.submenuname{
+   margin-right: 50px;
+   left: 0;
+}
+.nav-bar-items li{
+    list-style: none;
+}
+#icons2{
+    margin-left: 10px;
+}
+#name{
+    font-weight: 100;
+    font-size: .872rem;
+    margin-right: 35px;
+}
+ .menu-title{
+   
+    font-family: "ubuntu-regular", sans-serif;
+    font-size: .870rem;  
+    font-weight:400;
+} 
+.menu-title4{
+   
+    font-family: "ubuntu-regular", sans-serif;
+    font-size: .870rem;  
+    font-weight:400;
+    margin-left: 20px;
+} 
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+ 
+}
+
+
+.navbar {
+/*  
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+   
+}
+
+                                                      /* Sidebar */
+.customize{
+    margin-left: 30px;
+}
+#project{
+    margin-right: 10px;
+    background-color:#524c54;
+    padding: 17px;
+    border-radius: 2px;
+    font-weight: 500;
+    color: white;
+}
+.downarrrow{
+margin-left: 15px;
+  font-weight: 900;
+    font-size:8px;
+    
+   
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+.sidebarcontent1{
+    margin-top: 20px;
+}
+.dropimage{
+    margin-left: 10px;
+    height: 10px;
+    transform: rotate(90deg);
+}
+#sidebar {
+margin-top: 50px;
+   width:330px; 
+    background: white;
+    color: black;
+    transition: all 0.3s;
+    overflow:scroll;
+max-height:100vh ; 
+box-shadow:0px 0px 8px gray;
+
+}
+#sidebar1{
+    box-shadow:0px 0px 3px gray;
+}
+#sidebar::-webkit-scrollbar{
+    width:7px;
+    background-color:white;
+    margin-right: 10px;
+
+    } 
+#sidebar::-webkit-scrollbar-thumb{
+    background-color:#99A3A4 ;
+    border-radius:10px;
+    }
+
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar.active ul li a {
+    
+    text-align: center;
+    font-size: 0.85em;
+}
+#sorttoggle{
+    color: red;
+}
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+   
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: white;
+}
+.submenuname1{
+ margin-left:-13%;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    
+    border-bottom: 1px solid white;
+}
+#sidebar ul li a {
+    padding: 7px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.useraction{
+    background-color: white;
+}
+
+.togglebutton{
+    margin-left: 20px;
+}
+
+.dropdown {text-align:center;}
+.button, 
+.dropdown-menu {
+    width:200px; left:50%; margin-left:-65px;}
+.dropdown-menu{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.sidebarcontent2{
+    margin-left: 10px;
+}
+.navbar-expand-lg1{
+display: flex;
+margin-left: 20px;
+
+}
+.mainnavitem{
+    /* border-bottom: 0.4px solid #CCD1D1; */
+    box-shadow: 0 1px 3px -2px gray;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: white;
+    color: gray;
+}
+
+                                           /*content part */
+.lnr-chevron-right-circle{
+    position:fixed;
+    height: 30px;
+}
+.right3{
+    position:fixed;
+    font-size:25px;
+    color: #515A5A;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+   
+}
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    margin-top:60px;
+    overflow:scroll;
+    max-height:100vh ; 
+    
+}
+#content::-webkit-scrollbar{
+    width:10px;
+    background-color:#f5f5f5;
+    margin-right: 10px;
+    border-radius:10px;
+
+    } 
+#content::-webkit-scrollbar-thumb{
+    background-color:#7F8C8D;
+    border-radius:10px;
+    }
+.drop-down-noti-icons{
+    font-size: 1rem;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    #sidebar1,  .sidebarcontent2,.menu-title,.lnr-chevron-down{
+       width: 0px;
+      }
+    /* .sidebarcontent1,.menu-title,.lnr-chevron-down,  .lnr-menu{
+        display: none;
+    }   */
+    .opne-toggle{
+display:block;
+    }
+    .toggletosmall{
+        display: none;
+      
+    }
+}
+.main-nav-bar{
+    color: #B680DC;
+}
+
+

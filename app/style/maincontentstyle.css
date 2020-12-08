@@ -1,0 +1,252 @@
+.editpai,
+.tagole {
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.edit {
+  box-shadow: 0 0 2px gray;
+}
+.tagole1 {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+.padding-0 {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+#piechart {
+  margin-left: 20px;
+}
+.ola {
+  margin-top: 10px;
+  text-align: center;
+}
+.headertable {
+  margin-left: 20px;
+  font-weight: lighter;
+
+  padding: 10px;
+}
+.rounded-legend ul li .legend-dots {
+  width: 30px;
+  height: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 0.5rem;
+}
+.rounded-legend ul li {
+  list-style-type: none;
+  color: gray;
+  font-size: 0.7rem;
+  padding: 3px;
+}
+.rounded-legend {
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.table tr {
+  font-size: 0.75rem;
+}
+tbody tr {
+  text-align: center;
+  padding: 10px;
+}
+.table th {
+  color: black;
+  text-align: center;
+}
+
+#po {
+  background-color: #ec7063;
+}
+#grn {
+  background-color: #58d68d;
+}
+#invoice {
+  background-color: #48c9b0;
+}
+
+thead tr th {
+  font-weight: 500;
+  background-color: rgb(153, 214, 224);
+}
+@media screen and (max-width: 800px) {
+  .margintop {
+    margin-top: 10px;
+  }
+}
+.img-fluid {
+  height: 50px;
+}
+.fullheight {
+  height: 150px;
+  background-color: gray;
+  margin-top: 5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100%;
+}
+.grid-item {
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin: 2px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.grid-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.makemargintop {
+  margin-top: 10px;
+}
+.mdi-gavel {
+  margin-top: 30px;
+  font-size: 30px;
+  vertical-align: middle;
+  color: #5dade2;
+  background-color: white;
+  padding: 8px 12px;
+  border: 0.5px solid #d6dbdf;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+  margin: 10px;
+}
+.gavelicon {
+  margin-top: 35px;
+}
+.rfqnum {
+  font-size: 1.5rem;
+  color: gray;
+}
+.bidtype {
+  vertical-align: middle;
+  margin-top: 35px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/*///////////////////////////// Dispatch component seciton /////////////////////////////////////// */
+.dispatchmain {
+  box-shadow: 0 0 1px gray;
+}
+.distable-color {
+  background-color: #5dade2;
+}
+
+.trsize tr td {
+  word-wrap: break-word;
+  max-width: 200px;
+  text-align: start;
+  font-size: 13px;
+}
+.text-left th {
+  text-align: start;
+}
+.trsize tr td input {
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  padding: 3px;
+}
+.text-left textarea {
+  border: 1px solid #bdc3c7;
+}
+.gavel {
+  height: 30px;
+}
+.status {
+  padding: 7px 30px;
+  width: 70%;
+  border-radius: 3px;
+  border: 1px solid #bdc3c7;
+}
+#uploadbtn {
+  width: 93%;
+  padding: 7px;
+  border: none;
+  box-shadow: 0 0 3px gray;
+  color: white;
+  font-size: 13px;
+}
+#uploadbtn:hover {
+  box-shadow: 0 0 6px gray;
+}
+.dispatchtabledata {
+  overflow: hidden;
+  overflow-x: scroll;
+  box-shadow: 0 0 3px gray;
+}
+.footerbtn {
+  padding: 10px;
+  font-size: 13px;
+}
+.footerbtn button {
+  float: right;
+  margin-left: 9px;
+  box-shadow: 0 0 3px gray;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #3498db;
+}
+.footerbtn button:hover {
+  box-shadow: 0 1px 5px gray;
+}
+.text-left label,
+.card-title {
+  font-weight: 700;
+
+  font-size: 0.78rem;
+}
+
+.disnot {
+  font-weight: 600;
+
+  font-size: 0.98rem;
+}
+.sss {
+  font-size: 70px;
+}
+.list-of-purchase {
+  font-size: 0.98rem;
+}
+.color-red {
+  color: red;
+}
+.datepicker {
+  font-size: 0.78rem;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+}
+.react-date-picker__wrapper {
+  border: 1px solid #bdc3c7 !important;
+}
+
+.upload-file {
+  font-size: 1rem;
+}
+
+.textarea {
+  width: 100%;
+  height: 90px;
+  border-radius: 3px;
+}
+
+.antd-date {
+  width: 70%;
+}

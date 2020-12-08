@@ -1,0 +1,119 @@
+
+.loginform1 {
+  font-size: 15px;
+}
+
+@media (max-width: 990px) {
+  .log-form,
+  .right-div {
+    display: none;
+  }
+  .rightside2{
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    
+  }
+.leftside{
+ margin-left: 40px;
+}
+  .registerform {
+    width: 100%;
+   
+  }
+}
+.footer{
+  color: black;
+
+}
+.small-logo{
+  height:28px;
+}
+.technorishi{
+  color: gray;
+  font-size: 0.872rem;
+}
+.card .strong {
+  font-size: 20px;
+}
+.leftside {
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+
+}
+.md-form input {
+  margin-top: 30px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #5DADE2;
+  width: 70%;
+  transition: width 2s linear;
+}
+.btn-md {
+  border: 1px solid #5DADE2;
+}
+
+#member {
+  margin-top: 10px;
+}
+.card-header {
+  background-color: white;
+}
+#register {
+  color: #5DADE2;
+  margin-left: 4px;
+}
+#forgot {
+  color: orangered;
+  padding: 6px;
+  font-size: 13px;
+}
+.logbtn {
+  margin-top: 40px;
+  display: inline-block;
+  padding: 10px 25px;
+}
+#logintext {
+  font-size: 25px;
+}
+.welcometop{
+  font-size: 20px;
+ 
+}
+.welcome-dropdown-divider{
+  height: 5px;
+  width: 30px;
+  background-color: #5DADE2;
+}
+.log-form {
+  color: black;
+}
+.log-form .loginimage{
+ height: 45vh;
+ margin-left: 10%;
+ margin-top: 6%;
+
+}
+#purple {
+  font-size: 20px;
+  color: white;
+
+}
+
+.margin-top-90{
+  margin-top: 90px;
+}
+.box-shadow-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+.margin123{
+  margin-left: 13%;
+  margin-right: 13%
+}
+.ant-spin-nested-loading > div > .ant-spin .ant-spin-dot {
+  top:75% !important;
+}
